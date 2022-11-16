@@ -1,7 +1,7 @@
 using System;
 
 
-namespace Unit04.Game.Casting
+namespace CSE210_04.Game.Casting
 {
     /// <summary>
     /// <para>A thing that participates in the game.</para>

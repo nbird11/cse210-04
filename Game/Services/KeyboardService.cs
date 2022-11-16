@@ -1,8 +1,8 @@
-using Unit04.Game.Casting;
+using CSE210_04.Game.Casting;
 using Raylib_cs;
 
 
-namespace Unit04.Game.Services
+namespace CSE210_04.Game.Services
 {
     /// <summary>
     /// <para>Detects player input.</para>
