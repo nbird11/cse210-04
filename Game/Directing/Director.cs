@@ -84,8 +84,6 @@ namespace CSE210_04.Game.Directing
 
 
             // 4. Handles collisions between the miner and collectables
-
-
             foreach (Actor collectable in collectables)
             {
                 if (miner.GetPosition().Equals(collectable.GetPosition()))
