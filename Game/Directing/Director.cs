@@ -74,8 +74,11 @@ namespace CSE210_04.Game.Directing
                 Point position = new Point(x, y);
                 position = position.Scale(15);
 
+                // int vx = 0;
                 int vx = random.Next(-5,5);
-                int vy = random.Next(1,5);
+                int vy = random.Next(1,10);
+                // vx *= 15;
+                // vy *= 15;
                 Point velocity = new Point(vx, vy);
 
                 int r = random.Next(0, 256);
@@ -142,6 +145,5 @@ namespace CSE210_04.Game.Directing
             _videoService.DrawActors(actors);
             _videoService.FlushBuffer();
         }
-
     }
 }
