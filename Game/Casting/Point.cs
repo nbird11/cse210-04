@@ -42,7 +42,8 @@ namespace CSE210_04.Game.Casting
         /// <returns>True if both x and y are equal; false if otherwise.</returns>
         public bool Equals(Point other)
         {
-            return this._x == other.GetX() && this._y == other.GetY();
+            return (other.GetX()+7 >= this._x && other.GetX()+7 <= (this._x + 15))
+                    && (other.GetY()+7 >= this._y && other.GetY()+7 <= (this._y + 15));
         }
 
         /// <summary>

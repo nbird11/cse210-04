@@ -76,7 +76,7 @@ namespace CSE210_04.Game.Directing
 
                 // int vx = 0;
                 int vx = random.Next(-5,5);
-                int vy = random.Next(1,10);
+                int vy = random.Next(5,15);
                 // vx *= 15;
                 // vy *= 15;
                 Point velocity = new Point(vx, vy);
